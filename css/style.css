@@ -1,0 +1,172 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+
+#navbarNav{
+    justify-content: flex-end;
+}
+/* nice style for the logo name */
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: #5383d3 !important;
+}
+.nav-link{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer {
+    background-color: #676565;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 30px;
+    margin-top: 10px;
+}
+footer a {
+    color: #5383d3;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+.footer-distributed .footer-left {
+    width: 20%;
+}
+.footer-distributed .footer-center {
+    width: 20%;
+}
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+.footer-distributed h3 span {
+    color: #5383d3;
+}
+
+.footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+.footer-center, .footer-right{
+    width: 58%;
+}
+
+select {
+    width: 50%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  /* now the <span>About CityMIL</span> */
+  .footer-company-about span {
+    display: block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-decoration: underline;
+  }
+  .footer-company-about {
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 20px;
+  }
+  .footer-icons {
+    margin-top: 20px;
+    font-size: 23px;
+  }
+  .footer-icons a {
+    padding: 10px;
+    transition: 0.7s;
+    margin: 0 0.4rem;
+  }
+  .footer-icons a:hover {
+    color: #00b0c4;
+    background-color: #d9d9d9;
+    border-radius: 50%;
+  }
+
+  .card {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.center-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hidden-listing{
+    margin-top: 15px;
+}
+.logos-bottom{
+    margin: 15px;
+}
+
+        /* CSS styles for team member images */
+        .team-member img {
+            max-width: 100%;
+            height: 200px;
+            width: 200px;
+            border-radius: 50%;
+            border: 5px solid #fff;
+        }
+        .team-member img:hover{
+            border: 5px solid #d1dcf0;
+            transform: scale(1.07);
+            transition: 0.7s;
+        }
+
+        /* Additional CSS styles for layout and spacing */
+        #about {
+            background-color: #f5f5f5; /* Add a background color to the section */
+            padding: 40px 0;
+        }
+
+        .team-member {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .team-member h4 {
+            margin-top: 10px;
+        }
+
+@media (max-width: 880px) {
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
+.carousel-caption {
+text-shadow: 1px 1px 2px #000000;
+}
